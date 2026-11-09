@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="22dp" android:background="#F4F8F3">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Settings" android:textSize="25sp" android:textStyle="bold" android:textColor="#1B5E20"/>
+    <Switch android:id="@+id/expirySwitch" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Show expiring-soon reminders" android:paddingTop="20dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Reminders are a local preference. Ingredients expiring within 3 days can be highlighted in your pantry."
+        android:textColor="#526653" android:paddingTop="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="About Smart Pantry Manager" android:textStyle="bold" android:textSize="18sp"
+        android:textColor="#203124" android:paddingTop="30dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="A Java Android application that helps reduce food waste by suggesting recipes using only ingredients already available in your pantry."
+        android:textColor="#526653" android:paddingTop="8dp"/>
+    <Button android:id="@+id/settingsBackButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Back to pantry" android:layout_marginTop="24dp"/>
+</LinearLayout>

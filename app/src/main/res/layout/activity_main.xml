@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="18dp" android:background="#F4F8F3">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Smart Pantry Manager" android:textSize="25sp" android:textStyle="bold"
+        android:textColor="#1B5E20" android:paddingBottom="4dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Use what you already have. Waste less." android:textSize="14sp"
+        android:textColor="#526653" android:paddingBottom="14dp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/addButton" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="+ Add ingredient"/>
+        <Button android:id="@+id/suggestionsButton" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Suggested recipes"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="My pantry" android:textSize="20sp" android:textStyle="bold" android:textColor="#203124"
+            android:paddingTop="12dp" android:paddingBottom="8dp"/>
+        <Button android:id="@+id/settingsButton" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Settings"/>
+    </LinearLayout>
+    <TextView android:id="@+id/countText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="0 ingredients" android:textColor="#526653" android:paddingBottom="6dp"/>
+    <ListView android:id="@+id/pantryList" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:divider="#DCE8DC"
+        android:dividerHeight="8dp" android:clipToPadding="false" android:paddingBottom="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Tip: Tap an ingredient to edit or delete it." android:textSize="12sp"
+        android:textColor="#637565" android:gravity="center" android:padding="6dp"/>
+</LinearLayout>

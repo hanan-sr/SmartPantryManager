@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="14dp" android:background="@drawable/panel_background">
+    <TextView android:id="@+id/ingredientName" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Ingredient" android:textStyle="bold" android:textSize="17sp" android:textColor="#203124"/>
+    <TextView android:id="@+id/ingredientQuantity" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Quantity" android:textSize="14sp" android:textColor="#526653" android:paddingTop="3dp"/>
+    <TextView android:id="@+id/ingredientExpiry" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Expiry" android:textSize="12sp" android:textColor="#7A5B24" android:paddingTop="3dp"/>
+</LinearLayout>

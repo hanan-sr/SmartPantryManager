@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="15dp" android:background="@drawable/panel_background">
+    <TextView android:id="@+id/recipeName" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Recipe name" android:textStyle="bold" android:textSize="17sp" android:textColor="#203124"/>
+    <TextView android:id="@+id/recipeSummary" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Ingredients" android:textSize="13sp" android:textColor="#526653" android:paddingTop="4dp"/>
+</LinearLayout>
